@@ -23,13 +23,13 @@ void studentFunction(void);
 void adminFunction()
 {
     system("cls");
-    cout << "\n\n\t\t\t\t\t | Logged In as Admin |\n";
-    cout << "\n\n\t\t\t\t\t 1. Add Students Detail";
-    cout << "\n\n\t\t\t\t\t 2. Delete Students";
-    //cout << "\n\n\t\t\t\t\t 3. update Record";
-    cout << "\n\n\t\t\t\t\t 4. View Table ";
-    cout << "\n\n\t\t\t\t\t 5. Main Menu ";
-    cout << "\n\n\t\t\t\t\t 6. Exit";
+    cout << "\n\n\t\t\t\t\t ------------ | Logged In as Admin | ------------\n";
+    cout << "\n\n\t\t\t\t\t 1 => Add Students Detail";
+    cout << "\n\n\t\t\t\t\t 2 => Delete Students";
+    //cout << "\n\n\t\t\t\t\t 3 => update Record";
+    cout << "\n\n\t\t\t\t\t 4 => View Table ";
+    cout << "\n\n\t\t\t\t\t 5 => Main Menu ";
+    cout << "\n\n\t\t\t\t\t 6 => Exit";
 
     int option;
     cout << "\n\n\t\t\t\t\tEnter choice : ";
